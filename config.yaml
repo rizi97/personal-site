@@ -1,4 +1,4 @@
-baseURL: "https://rizi97.github.io/personal-site/"
+baseURL: "http://localhost:1313/"
 languageCode: "en-us"
 title: "Hugo Profile"
 theme: custom
@@ -55,8 +55,8 @@ Menus:
 params:
   title: "Hugo Profile"
   description: Text about my cool site
-  staticPath: "https://rizi97.github.io/personal-site/"  # The path to serve the static files from
-  favicon: "/fav.png"
+  staticPath: "http://localhost:1313/"  # The path to serve the static files from
+  favicon: "/images/fav.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -124,9 +124,9 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Isabella."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
+    title: "Eleanor."
+    subtitle: "Sustainability strategist and data scientist"
+    content: ""
     image: /images/hero.svg
     bottomImage:
       enable: true
@@ -144,7 +144,7 @@ params:
         - icon: fab fa-x-twitter
           url: https://example.com
       customIcons:
-        - icon: /fav.png
+        - icon: /images/fav.png
           url: "https://example.com"
 
   # About
@@ -153,11 +153,13 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
-
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      I'm focused on supporting responsible investors, universal owners and those concerned with the public good find common ground in pursuit of shared sustainability goals.
+      
+      I have been working in sustainability for over a decade, and in responsible investing for the last 7. My breadth of experience extends from developing sustainable investment frameworks to professional ESG data collection and interpretation through algorithmic score development to working with developers to establish portfolio analytics and reporting.
+      
+      Existing evidence on investor impact indicates that stewardship is the next big thing when it comes to responsible investment. I seek to contribute my quantitative skills addressing the immense sustainability challenges we face in the 21st century. I look forward to hearing how I can support your organisation meaningfully address these challenges.
     skills:
-      enable: true
+      enable: false
       title: "Here are a few technologies I've been working with recently:"
       items:
         - "HTML"
