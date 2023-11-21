@@ -1,4 +1,4 @@
-baseURL: "http://localhost:1313/"
+baseURL: "https://rizi97.github.io/personal-site/"
 languageCode: "en-us"
 title: "Hugo Profile"
 theme: custom
@@ -55,7 +55,7 @@ Menus:
 params:
   title: "Hugo Profile"
   description: Text about my cool site
-  staticPath: "http://localhost:1313/"  # The path to serve the static files from
+  staticPath: "https://rizi97.github.io/personal-site/"  # The path to serve the static files from
   favicon: "/images/fav.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
